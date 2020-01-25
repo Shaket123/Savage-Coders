@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Product</title>
+	<link href="addapp.css" type="text/css" rel="stylesheet" >
+</head>
+<body>
+	<div id="navbar"> 
+		<a href="home.html">Home</a>
+		<a href="referal.php">Referal Code</a>
+		<a href="#about">About</a>
+		<a href="contact.html">Contact</a>
+		  <a href="login.html">Sign Out</a>
+	  </div>
+	  <br>
+<br>
+<br>
+<div class="main">
+	<center>
+<form name="Product" action="prod.php" method="POST">
+	<table>
+		<tr><td colspan="2"><h1 style="text-align: center;" class="sign">APP Details</h1></td></tr>
+		<tr>
+			<td ><input class="un" type="text" name="pname" required placeholder="App Name"></td>
+		</tr>
+			<tr>
+			<td ><input class="un"  type="text" name="pver" required placeholder="Version no"></td>
+		</tr>
+		<tr>
+			<td ><input class="un" type="text" name="pmoto" required placeholder="App functionality"></td>
+		</tr>
+		<tr>
+			<td ><input class="un" type="text" name="mname" required placeholder="Manufacturer Name"></td>
+		</tr>
+		<tr>
+			<!-- <td >Type :</td> -->
+			<td><select class="un" name="ptype" aria-placeholder="Type">
+				<option class="un">FREE</option>
+				<option class="un">PAID</option>
+			</select>
+			</td>
+		</tr>
+		<tr>
+			<td ><textarea class="un"  name="pdesc" required rows="5" placeholder="Description"></textarea> </td>
+		</tr>
+
+		</table>
+		<input class="submit" type="submit" value="SUBMIT" name="submit">
+
+	
+</form></center>
+</div>
+</body>
+</html>

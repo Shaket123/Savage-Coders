@@ -1,0 +1,39 @@
+<html>
+  <head>
+    <title>Signup</title>
+    <link href="signupstyle.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+      <div id="navbar"> 
+         
+           <a href="login.html">Login</a>
+           <a href="signup.html">Signup</a>
+           <a href="#about">About</a>
+           <a href="contact.html">Contact</a>
+           </div>
+
+<form name="fsignup" action="signup.php" method="POST">
+<div id="login-box">
+  <div class="left">
+    <h1>Sign up</h1>
+    
+    <input type="text" name="userid" placeholder="Username" />
+    <input type="text" name="email" placeholder="E-mail" />
+    <input type="password" name="pass" placeholder="Password" maxlength="8" />
+    <input type="password" name="cpass" placeholder=" Confirm Password" />
+    
+    <input type="submit" name="submit" value="Sign me up" />
+  </div>
+  
+  <div class="right">
+    <span class="loginwith">Sign in with<br />social network</span>
+    
+    <button class="social-signin facebook">Log in with facebook</button>
+    <button class="social-signin twitter">Log in with Twitter</button>
+    <button class="social-signin google">Log in with Google+</button>
+  </div>
+  <div class="or">OR</div>
+</div>
+</form>
+</body>
+</html>
